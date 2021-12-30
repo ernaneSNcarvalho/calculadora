@@ -1,0 +1,10 @@
+<%- include('header') %>
+    <div class="result">
+        <% if(error){ %>
+            <%= error %>
+                <% } else { %>
+                    Montante: R$ <%- calculadora %> e Juros: R$ <%- juros %>
+                            <% } %>
+    </div>
+
+    <%- include('footer') %>
